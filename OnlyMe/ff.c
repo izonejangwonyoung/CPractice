@@ -1,22 +1,25 @@
-#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+ #include <stdio.h>
+
+ int main(void)
+ {
+ 	int x;				
+ 	int y;					
+ 	int sum;				
+	
+ 	sum = x + y;
+
+ 	printf("insert your number:");		
+ 	scanf("%d", &x);			
+	
 
 
-int main(void)
+ 	printf("insert your number:");	
+ 	scanf("%d", &y);
+	
 
-{
+ 	printf("total is...", &sum);		
+ 	getchar();
+ 	return 0;				
+ }
 
-
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-    printf("helloss world");
-
-    return 0;
-}
